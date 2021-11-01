@@ -1,0 +1,16 @@
+on:
+  pull_request:
+    types: [opened, closed, reopened]
+
+jobs:
+  hello_world_job:
+    runs-on: ubuntu-latest
+    name: A job to comment in artia activity.
+    steps:
+      - name: Ste
+        id: hello
+        uses: donPain/action_temp@v1.8
+        with: 
+          organizationId: 111402
+          accountId: 3757321
+        
