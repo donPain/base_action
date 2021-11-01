@@ -1,0 +1,7 @@
+name: 'Base payload'
+description: 'Return a payload webhook'
+inputs:
+outputs:
+runs:
+  using: 'node12'
+  main: 'index.js'
